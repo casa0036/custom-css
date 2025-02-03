@@ -1,0 +1,33 @@
+/* these are some of the things that I thought about and found in other frame works, we do not have to do all of them, its just to give us an idea and a starting point */
+
+// css reset 
+@use 'reset';
+
+//base css - what is used on every page, links, p , body text,   
+
+//Typography 
+/* base font sizes, headings 1-6, utility classes for font size, weights, colours, line height, font families */
+
+//Layout and grid system
+/* flex box or css grid, container, row and colum classes, margin, padding,  */
+
+// Utility Classes 
+/* spacing, text alignment, dislpay properties, border-radius, border */
+
+// Responsive breakpoins 
+/* define breakpoints mobile and desktop */
+
+//Components 
+/* cards, modals, alerts, nav bar, hero banner, etc. 
+Buttons - primary, secodary, and outline buttons 
+Forms - input fields,labels, checkboxes, dropdowns, lists, tables
+*/
+
+//animations and transitions 
+/* hover effects and smooth transitions */
+
+// themes and color systems
+/* define variables for light/dark or different color schemes */
+
+// Accessibility features
+/* foucs states, ARIA attributes */
