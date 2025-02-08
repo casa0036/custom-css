@@ -20,13 +20,18 @@ $font-size-xxlarge: 2rem;
 
 //colors 
 $theme: (
-    "primary":#514765,
-    "secondary":#8c5e8f,
-    "info": #e68d96,
-    "success": #27ac6c,
-    "warning": #e1cf25,
-    "danger": #ef2d13,
-    "dark": #b07395,
-    "light": #e0d6b7,
+    "light":      #d0e2ff,
+    "dark":       #e7c8f9,
+    "primary":    #353165,
+    "secondary":  #466cba,
+    "info":       #7685f8,
+    "success":    #119f5e,
+    "warning":    #dfca12,
+    "danger":     #ec2207,
     "white": #fff,
-)
+);
+
+//base styles 
+$list-ul: circle;
+$list-ol: disc;
+$border-radius: 6px;

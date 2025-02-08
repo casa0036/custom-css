@@ -93,6 +93,353 @@ meter {
 /***
     The End of reset 
 ***/
+/* cards, modals, alerts, nav bar, hero banner, etc. 
+Buttons - primary, secodary, and outline buttons 
+Forms - input fields,labels, checkboxes, dropdowns, lists, tables
+*/
+/* flex box or css grid, container, row and colum classes, margin, padding,  */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  padding: 30px 0;
+}
+
+ul {
+  margin: 0 0 0 30px;
+  padding: 30px 0 0 0;
+  list-style: circle;
+}
+
+ol {
+  margin: 0 0 0 30px;
+  padding: 30px 0 0 0;
+  list-style: disc;
+}
+
+dl {
+  margin: 0 0 0 30px;
+  padding: 30px 0 0 0;
+}
+
+dt {
+  color: #7685f8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+dd {
+  margin: 0 0 0 30px;
+}
+
+button, button.btn.btn-primary, a.btn.btn-primary {
+  background-color: #353165;
+  color: #e7c8f9;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+}
+
+button.btn.btn-secondary {
+  background-color: #466cba;
+  color: #e7c8f9;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+}
+
+button.btn.btn-success {
+  background-color: #119f5e;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+}
+
+button.btn.btn-info {
+  background-color: #7685f8;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+}
+
+button.btn.btn-warning {
+  background-color: #dfca12;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+}
+
+button.btn.btn-danger {
+  background-color: #ec2207;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+}
+
+button.btn.btn-outline-primary {
+  background-color: transparent;
+  color: #353165;
+  border: 2px solid #353165;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+button.btn.btn-outline-primary:hover {
+  background-color: #353165;
+  color: #e7c8f9;
+}
+
+button.btn.btn-outline-secondary {
+  background-color: transparent;
+  color: #466cba;
+  border: 2px solid #466cba;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+button.btn.btn-outline-secondary:hover {
+  background-color: #466cba;
+  color: #fff;
+}
+
+button.btn.btn-outline-success {
+  background-color: transparent;
+  color: #119f5e;
+  border: 2px solid #119f5e;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+button.btn.btn-outline-success:hover {
+  background-color: #119f5e;
+  color: #fff;
+}
+
+button.btn.btn-outline-info {
+  background-color: transparent;
+  color: #7685f8;
+  border: 2px solid #7685f8;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+button.btn.btn-outline-info:hover {
+  background-color: #7685f8;
+  color: #fff;
+}
+
+button.btn.btn-outline-warning {
+  background-color: transparent;
+  color: #dfca12;
+  border: 2px solid #dfca12;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+button.btn.btn-outline-warning:hover {
+  background-color: #dfca12;
+  color: #fff;
+}
+
+button.btn.btn-outline-danger {
+  background-color: transparent;
+  color: #ec2207;
+  border: 2px solid #ec2207;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+button.btn.btn-outline-danger:hover {
+  background-color: #ec2207;
+  color: #fff;
+}
+
+a.link-primary {
+  color: #353165;
+  text-decoration: none;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+a.link-primary:hover {
+  background-color: #353165;
+  color: #fff;
+}
+
+a.link-secondary {
+  color: #466cba;
+  text-decoration: none;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+a.link-secondary:hover {
+  background-color: #466cba;
+  color: #fff;
+}
+
+a.link-info {
+  color: #7685f8;
+  text-decoration: none;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+a.link-info:hover {
+  background-color: #7685f8;
+  color: #fff;
+}
+
+a.link-warning {
+  color: #dfca12;
+  text-decoration: none;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+a.link-warning:hover {
+  background-color: #dfca12;
+  color: #fff;
+}
+
+a.link-danger {
+  color: #ec2207;
+  text-decoration: none;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+a.link-danger:hover {
+  background-color: #ec2207;
+  color: #fff;
+}
+
+a.link-success {
+  color: #119f5e;
+  text-decoration: none;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+a.link-success:hover {
+  background-color: #119f5e;
+  color: #fff;
+}
+
+form {
+  max-width: 600px;
+  margin: 30px;
+  padding: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+input[type=text], input[type=email] {
+  border: 1px solid #d0e2ff;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
 /* base font sizes, headings 1-6, utility classes for font size, weights, colours, line height, font families */
 body {
   font-family: "Patrick Hand", serif;
@@ -154,13 +501,8 @@ strong {
   font-size: 1rem;
 }
 
-/* flex box or css grid, container, row and colum classes, margin, padding,  */
 /* spacing, text alignment, dislpay properties, border-radius, border */
 /* define breakpoints mobile and desktop */
-/* cards, modals, alerts, nav bar, hero banner, etc. 
-Buttons - primary, secodary, and outline buttons 
-Forms - input fields,labels, checkboxes, dropdowns, lists, tables
-*/
 /* hover effects and smooth transitions */
 /* define variables for light/dark or different color schemes */
 /* foucs states, ARIA attributes */
