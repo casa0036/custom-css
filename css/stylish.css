@@ -1,4 +1,6 @@
 /* these are some of the things that I thought about and found in other frame works, we do not have to do all of them, its just to give us an idea and a starting point */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 /***
     The new CSS reset - version 1.11.3 (last updated 25.08.2024)
     GitHub page: https://github.com/elad2412/the-new-css-reset
@@ -92,6 +94,66 @@ meter {
     The End of reset 
 ***/
 /* base font sizes, headings 1-6, utility classes for font size, weights, colours, line height, font families */
+body {
+  font-family: "Patrick Hand", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Indie Flower", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Indie Flower", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: "Indie Flower", serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-family: "Indie Flower", serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+h5 {
+  font-family: "Indie Flower", serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+h6 {
+  font-family: "Indie Flower", serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+p {
+  font-family: "Patrick Hand", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+small {
+  font-family: "Patrick Hand", serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+strong {
+  font-family: "Patrick Hand", serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 /* flex box or css grid, container, row and colum classes, margin, padding,  */
 /* spacing, text alignment, dislpay properties, border-radius, border */
 /* define breakpoints mobile and desktop */

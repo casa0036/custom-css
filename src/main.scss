@@ -7,6 +7,10 @@
 
 //Typography 
 /* base font sizes, headings 1-6, utility classes for font size, weights, colours, line height, font families */
+@use 'typography';
+@use 'heading-font';
+@use 'body-font';
+@use 'variables';
 
 //Layout and grid system
 /* flex box or css grid, container, row and colum classes, margin, padding,  */

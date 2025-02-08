@@ -1,0 +1,63 @@
+@use 'variables';
+@use 'heading-font';
+@use 'body-font';
+
+body {
+    font-family: variables.$body-font;
+    font-weight: variables.$font-weight-regular;
+    font-size: variables.$font-size-medium;
+}
+
+h1 {
+    font-family: variables.$heading-font;
+    font-weight: variables.$font-weight-bold;
+    font-size: variables.$font-size-xxlarge;
+}
+
+h2 {
+    font-family: variables.$heading-font;
+    font-weight: variables.$font-weight-semibold;
+    font-size: variables.$font-size-xlarge;
+}
+
+h3 {
+    font-family: variables.$heading-font;
+    font-weight: variables.$font-weight-semibold;
+    font-size: variables.$font-size-large;
+}
+
+h4 {
+    font-family: variables.$heading-font;
+    font-weight: variables.$font-weight-medium;
+    font-size: variables.$font-size-medium;
+}
+
+h5 {
+    font-family: variables.$heading-font;
+    font-weight: variables.$font-weight-medium;
+    font-size: variables.$font-size-small;
+}
+
+h6 {
+    font-family: variables.$heading-font;
+    font-weight: variables.$font-weight-regular;
+    font-size: variables.$font-size-small;
+}
+
+p {
+    font-family: variables.$body-font;
+    font-weight: variables.$font-weight-regular;
+    font-size: variables.$font-size-medium;
+}
+
+small {
+    font-family: variables.$body-font;
+    font-weight: variables.$font-weight-light;
+    font-size: variables.$font-size-small;
+}
+
+strong {
+    font-family: variables.$body-font;
+    font-weight: variables.$font-weight-bold;
+    font-size: variables.$font-size-medium;
+}
