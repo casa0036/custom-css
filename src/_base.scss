@@ -62,7 +62,7 @@ button, button.btn.btn-primary, a.btn.btn-primary {
 }
 
 button.btn.btn-secondary {
-    @include stylish-btn(map-get(variables.$theme, "secondary"), map-get(variables.$theme, "dark"));
+    @include stylish-btn(map-get(variables.$theme, "secondary"), map-get(variables.$theme, "white"));
 }
 
 button.btn.btn-success {
@@ -188,4 +188,38 @@ input[type="text"], input[type="email"]{
     border: 1px solid map-get(variables.$theme, "light" );
     padding: 6px 8px;
     border-radius: variables.$border-radius;
+}
+
+button[type="submit"] {
+    @include stylish-btn(map-get(variables.$theme, "success"), map-get(variables.$theme, "white"));
+}
+
+//card
+
+.card {
+    background-color: map-get(variables.$theme, "light") ;
+    border-radius: variables.$border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease;
+
+    &:hover{
+        transform: translateY(-5px);
+    }
+}
+
+.card-header {
+    font-family: variables.$heading-font;
+    font-size: 30px;
+    font-weight: bold;
+    color:  map-get(variables.$theme, "secondary");
+}
+
+.card-body {
+    font-size: 15px;
+    color: map-get(variables.$theme, "secondary");
+    padding: 15px ;
 }

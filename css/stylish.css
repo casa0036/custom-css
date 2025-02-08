@@ -150,7 +150,7 @@ button, button.btn.btn-primary, a.btn.btn-primary {
 
 button.btn.btn-secondary {
   background-color: #466cba;
-  color: #e7c8f9;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   border: none;
@@ -438,6 +438,47 @@ input[type=text], input[type=email] {
   border: 1px solid #d0e2ff;
   padding: 6px 8px;
   border-radius: 6px;
+}
+
+button[type=submit] {
+  background-color: #119f5e;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-family: "Patrick Hand", serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  min-width: 100px;
+}
+
+.card {
+  background-color: #d0e2ff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  font-family: "Indie Flower", serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #466cba;
+}
+
+.card-body {
+  font-size: 15px;
+  color: #466cba;
+  padding: 15px;
 }
 
 /* base font sizes, headings 1-6, utility classes for font size, weights, colours, line height, font families */
