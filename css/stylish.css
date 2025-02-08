@@ -481,6 +481,33 @@ button[type=submit] {
   padding: 15px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #353165;
+  color: white;
+}
+.navbar .nav-links {
+  display: flex;
+  gap: 15px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background 0.3s ease;
+}
+.navbar a:hover {
+  background: #466cba;
+}
+
+.footer {
+  background: #466cba;
+  color: #fff;
+  padding: 20px;
+}
+
 /* base font sizes, headings 1-6, utility classes for font size, weights, colours, line height, font families */
 body {
   font-family: "Patrick Hand", serif;

@@ -223,3 +223,36 @@ button[type="submit"] {
     color: map-get(variables.$theme, "secondary");
     padding: 15px ;
 }
+
+//navbar
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: map-get(variables.$theme, "primary");
+    color: white;
+
+    .nav-links {
+        display: flex;
+        gap: 15px;
+    }
+
+    a {
+        color: map-get(variables.$theme, "white");
+        text-decoration: none;
+        padding: 8px 12px;
+        transition: background 0.3s ease;
+
+        &:hover {
+            background: map-get(variables.$theme, "secondary") ;
+        }
+    }
+}
+
+//footer
+.footer{
+    background: map-get(variables.$theme, "secondary");
+    color:map-get(variables.$theme, "white");
+    padding: 20px;
+}
