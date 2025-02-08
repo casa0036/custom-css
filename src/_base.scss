@@ -1,0 +1,25 @@
+@use 'sass:map';
+@use 'variables';
+
+
+//buttons & buttons (links)
+
+@mixin stylish-btn($btn-bg-color: map-get(variables.$theme, "primary"), $btn-text-color: map-get(variables.$theme,"dark")) {
+    background-color: $btn-bg-color;
+    color: $btn-text-color;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-family: variables.$body-font;
+    font-size: 15px;
+    padding: 5px 15px;
+    text-align: center;
+    min-width: 100px;
+}
+
+button, button.btn.btn-primary, a.btn.btn-primary {
+    @include stylish-btn();
+}
+
+
+

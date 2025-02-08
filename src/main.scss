@@ -3,7 +3,13 @@
 // css reset 
 @use 'reset';
 
-//base css - what is used on every page, links, p , body text,   
+//base css - what is used on every page, links, p , body text, 
+/* cards, modals, alerts, nav bar, hero banner, etc. 
+Buttons - primary, secodary, and outline buttons 
+Forms - input fields,labels, checkboxes, dropdowns, lists, tables
+*/  
+/* flex box or css grid, container, row and colum classes, margin, padding,  */
+@use 'base';
 
 //Typography 
 /* base font sizes, headings 1-6, utility classes for font size, weights, colours, line height, font families */
@@ -12,21 +18,13 @@
 @use 'body-font';
 @use 'variables';
 
-//Layout and grid system
-/* flex box or css grid, container, row and colum classes, margin, padding,  */
 
 // Utility Classes 
 /* spacing, text alignment, dislpay properties, border-radius, border */
 
 // Responsive breakpoins 
 /* define breakpoints mobile and desktop */
-
-//Components 
-/* cards, modals, alerts, nav bar, hero banner, etc. 
-Buttons - primary, secodary, and outline buttons 
-Forms - input fields,labels, checkboxes, dropdowns, lists, tables
-*/
-
+ 
 //animations and transitions 
 /* hover effects and smooth transitions */
 
