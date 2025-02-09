@@ -1,0 +1,27 @@
+@use 'sass:map';
+@use 'variables';
+
+// Rounded (border-radius)
+
+.rounded-sm {
+    border-radius: map-get(variables.$rounded, "sm")
+}
+
+.rounded-md {
+    border-radius: map-get(variables.$rounded, "md")
+}
+
+.rounded-lg {
+    border-radius: map-get(variables.$rounded, "lg")
+}
+
+.rounded-full {
+    border-radius: map-get(variables.$rounded, "full")
+}
+
+
+// Bolded text
+
+.text-bold {
+    font-weight: variables.$font-bold;
+}

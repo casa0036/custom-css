@@ -108,20 +108,20 @@ section {
 }
 
 ul {
-  margin: 0 0 0 30px;
-  padding: 30px 0 0 0;
+  margin: 0 0 0 10px;
+  padding: 10px 0 0 0;
   list-style: circle;
 }
 
 ol {
-  margin: 0 0 0 30px;
-  padding: 30px 0 0 0;
+  margin: 0 0 0 10px;
+  padding: 10px 0 0 0;
   list-style: disc;
 }
 
 dl {
-  margin: 0 0 0 30px;
-  padding: 30px 0 0 0;
+  margin: 0 0 0 10px;
+  padding: 10px 0 0 0;
 }
 
 dt {
@@ -131,7 +131,7 @@ dt {
 }
 
 dd {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 10px;
 }
 
 button, button.btn.btn-primary, a.btn.btn-primary {
@@ -519,12 +519,15 @@ h1 {
   font-family: "Indie Flower", serif;
   font-weight: 700;
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-family: "Indie Flower", serif;
   font-weight: 600;
   font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 h3 {
@@ -576,3 +579,28 @@ strong {
 /* foucs states, ARIA attributes */
 
 /*# sourceMappingURL=stylish.css.map */
+
+.rounded-sm {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.rounded-md {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.rounded-lg {
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.rounded-full {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.text-bold {
+  font-weight: 700;
+}
