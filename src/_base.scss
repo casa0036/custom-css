@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+div{
+    padding: 30px;
+}
+
 section {
     padding: 30px 0;
 }
@@ -256,3 +260,32 @@ button[type="submit"] {
     color:map-get(variables.$theme, "white");
     padding: 20px;
 }
+
+//Table
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+    }
+  
+    thead {
+      background-color: map-get(variables.$theme, "light");
+
+    }
+  
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background-color: map-get(variables.$theme, "light");
+        }
+  
+        &:hover {
+          background-color: map-get(variables.$theme, "info");
+        }
+      }
+    }
+  }
