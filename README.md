@@ -156,6 +156,62 @@ Cards have a coloured background with a drop shadow and colored text and a hover
     <div class="card-body">Card Content</div>
 </div>
 ```
+#### Tables
+
+Tables have a coloured background and a hover animation. This is how to display information that needs to be understood quickly.
+
+```scss
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+    }
+  
+    thead {
+      background-color: map-get(variables.$theme, "light");
+
+    }
+  
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background-color: map-get(variables.$theme, "light");
+        }
+  
+        &:hover {
+          background-color: map-get(variables.$theme, "info");
+        }
+      }
+    }
+  }
+```
+```html
+<table class="table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>30</td>
+                    <td>New York</td>
+                  </tr>
+                  <tr>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                    <td>Toronto</td>
+                  </tr>
+                </tbody>
+              </table>
+```
 
 #### Navigation
 
