@@ -1,6 +1,4 @@
-# custom-css
-
-## Stylish CSS 
+# Stylish CSS 
 
 Stylish CSS is a lightweight, responsive CSS framework designed for easy customization and modern web development. An easy and efortless way to keep you designs stylish.
 
